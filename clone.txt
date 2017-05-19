@@ -1,0 +1,723 @@
+Last Revised: 4/19/17 -
+
+P.S, if anyone knows someone who is familiar with Scribus and graphic design, we're still needing someone who can lead the charge on formatting the zine and doing art, etc. Going to be tough to find someone.
+
+Users involved and the subjects they’ve mentioned wanting to tackle: 
+
+General writing/head of project - anontrust@cock.li (clippng)
+Encryption Writing – nineohthree@airmail.cc (don't be afraid to add me on XMPP if you'd like, I'm not always on IRC)
+Phone/Mobile Security/Burner 101 – [REDACTED]
+Formatting(?) & Writing – [REDACTED]
+Editing & Proofreading – [REDACTED]
+Password Generation & Management - [REDACTED]
+Basic anti-cop strategies - [REDACTED]
+Cryptography/infosec - [REDACTED]
+Commandline 101 - [REDACTED]
+
+Also reached out to 2 others, awaiting responses
+
+FORMATTING IDEAS
+
+Working Title: Security Culture In An Age of Cyber Repression
+
+Brought to you by users at Lainchan.org
+
+INTRODUCTION SECTION
+- Dictionary/Glossary // Include brief definitions of tech lingo, including the explanation of the word "FREE", when discussing software
+- Threat Modeling & Doing It Your Way
+- Why You DO Have Something To Hide
+
+LINUX, FREE SOFTWARE, & THE COMMAND LINE
+- Intro to Free Open Source Software // Discuss free software movement, the four essential rules to freedom, and more
+- Operating Systems (Linux) // Debian, Tails, Arch, Whonix, Heads ( https://heads.dyne.org/|http://fz474h2o46o2u7xj.onion/ ), Qubes OS, etc
+- Command Line 101
+- Apps & Software // Brief discussion about alternatives, the importance of using them, etc
+
+THE BASICS
+- Password Generation and Management // KeePass, Password Generation, General Do's & Don'ts
+- Encryption, EMail and Personal Files // Encryption Tools – Tomb, GnuPG
+- The Fight Against Digital Rights Management
+- Must Haves, (Browser Addons, Encryption Tools) // NoScript, uBlock Origin, LibreJS, HTTPS Everywhere, Disconnect
+
+ANONYMIZE YOURSELF
+- Introduction to Anonymization // Discuss metadata, GPS tracking, government intrusion
+- Tails, VPN Services, Tor Browser, Signal, SecureDrop, eMail Services // Reference encryption section, discuss all of the software and utilities mentioned in further detail
+- Cell Phones 101 // Explain Replicant, Burner Phones, etc.
+
+END NOTE
+- The Future // Discuss what the future holds, as governments continue to strengthen the iron grip on internet privacy and security, and what we must do to continue the resistance.
+
+RESOURCES
+- Additional Websites & Recommended Reading 
+
+----------------------------------------------------------------------------------------
+SECURITY CULTURE IN AN AGE OF CYBER REPRESSION
+
+YOU DO HAVE SOMETHING TO HIDE
+
+"Saying privacy does not matter because you have nothing to hide is like saying free speach does not matter because you have nothing to say."
+
+
+In the past several years, it can be assumed that everyone has heard their relatives, friends, or even themselves, utter the words “I’ve got nothing to hide” or “Unless you’re doing something illegal, you don’t have anything to worry about” when discussing government surveillance. The issue with this response is that whether or not you have something to hide means nothing in the eyes of the government. It is not always about busting you for what you have already done. It’s about finding out what you’re going to do next. The data being mined from our keystrokes and the malicious code being injected into our operating systems and software are all generating power for someone other than the user. For each time you head somewhere with your GPS turned on or live stream on Facebook to all of your friends, there is a government and very likely a corporation, benefiting from your data.
+
+“But why does it matter? It’s just data, right?” Even small amounts of data being collected from visiting a website can provide enough information to track location, relations, interests, and much more. The government often collects these small and “harmless” pieces of information, which only end up being combined together to create a picture of each citizen’s life. The slow accumulation of our personal data and lives being monitored through a government or corporate lens allows for our information and autonomy to be bought and sold.
+
+The profits that fuel the toxicity of capitalism are often being made off of the data being released by some of the world’s most famous technology companies. Facebook, Apple, Microsoft, Google, and many others contribute large amounts of data to the massive markets of advertising and data collection. In the world of technology, data is power. The more data they have, the more they know about a user, and the more power they hold over the user who the data originates from. While many of these corporations offer services at no monetary cost,the personal information being traded away allows for the corporation to maintain a steady stream of profits and power over the user of the service.
+
+The role that data has played in government surveillance violence has become more evident than ever, thanks to the releases of Edward Snowden and WikiLeaks. Snowden gave light to the complex nature of the National Security Agency’s electronic surveillance program, allowing for citizens of the United States to become fully aware of the authoritarian-like nature of the NSA. Within these releases, we have seen the stalking and undermining of popular political activists, drone strikes sent to foreign countries, illegal wiretapping, harboring of citizens personal photos, and much more. While these leaks were centered around the United States government, it can only be presumed that all other countries have also begun to take part in the collection of citizen’s data. Now that it is clear how much government relies on information being collected, we are now given more reason than ever, to be careful of how we live our digital lives.
+
+Since the early boom of technology in the 80s, we have seen government weary of allowing citizens the ability to freely access technology. The capabilities of what one can do with a piece of technology are endless and unknown, which poses a threat to structures of power. Most recently, we have seen a continuation of government force and legislation being drafted to strike back against common encryption methods. These bills, often being masqueraded as “Anti-Terrorist Legislation,” continue to prove themselves invasive and infringing on human rights. As we continue to transcend into an age where our lives become more centered around the internet and a digital presence, we must wage a war for all users' freedoms, in the name of liberation. To liberate our software, hardware, source code, information, and ourselves, we must strike back against all structures of hierarchical power that threaten our autonomy as humans and users of technology. 
+
+--SIDE NOTES
+Security is a process, and this zine is only going to provide you a place to start. There will be additional  references, links, and suggested readings listed at the end for those interested.
+
+VPNs
+
+In many situations, the Tor Browser just isn’t enough. We have seen governments go out of their way to shut down Tor services entirely, in an attempt at limiting the communication between their citizens and the outside world. A VPN service in this situation can be extremely useful. While they don’t provide real anonymity, they can add another layer to the masking of your identity. VPN use is best when connected to public networks, torrenting, or avoiding ISP limitations. The choice of which VPN provider you use can be difficult at times. Typically, it is best to get information about VPN providers through Internet communities and word of mouth, as there have been a number of services that claimed to be pro-privacy, only to sell the users data to the powers that be. Unfortunately, VPN services aren’t always free. Free VPN services have often proven themselves to be unreliable, but if you are unable to pay for a VPN service yourself, we recommend checking out Riseup.net’s free VPN service. Currently it is only available on Linux and Android platforms, but development for OSX and Windows is in the works.
+
+---------------------------------------------------------------------------------------------
+
+SUGGESTED READING & OTHER RESOURCES
+
+https://www.torproject.org/ - Tor Browser Project
+https://www.fsf.org/ - Free Software Foundation
+https://www.eff.org/ - The Electronic Frontier Foundation
+https://ssd.eff.org/ - Surveillaince Self-Defense
+https://stallman.org/ - Home of Richard Stallman
+https://www.gnu.org/ - GNU/Linux Website, more information on the Free Software movement and more
+https://riseup.net/ - Seattle based anarchist collective with a focus on digital rights and services
+https://prism-break.org/ - Resources for finding Free alternatives to popular apps and software
+https://www.jacobinmag.com/ - Radical leftist media outlet, frequently covering security culture
+https://freedom.press/ - Freedom of the Press Foundation, focused on security
+https://hightechlowlife.eu/ - Internet community focused in security and hacking
+https://www.cybrary.it/ - Free classes focused in FOSS Cyber Security  
+https://theanarchistlibrary.org/ - Internet library with thousands of archived essays, books, and more
+https://lainchan.org/ - Because we all love Lain.
+https://lainchan.jp - Because we all love Lain.
+https://crimethinc.com/2004/11/01/what-is-security-culture  -  A very helpful guide for organizing direct action of all types
+
+---------------------------------------------
+
+Last revision 2017.03.27 [Added a section about bind hooks.]
+
+Tomb - A personal file encryption program
+
+[] - Text in these brackets are notes for the zine
+
+Table of Contents
+1. Overview
+2. Installation
+3. Examples
+4. Glossary [Can probably just be added into the zine later]
+
+
+ - Overview -
+Tomb is a personal file encryption program that creates encrypted containers,
+also known as tombs, that can be easily transported and managed. Tomb is a CLI
+program, so you will need to use a terminal, as well as have root (or sudo)
+access to the machine you are using. Tombs are unlocked and encrypted with a key,
+a cryptographic string the program uses to decrypt and encrypt the tombs 
+(a bit like passwords). To unlock a tomb, you need three things; the tomb itself,
+he key and the password. Tombs have a minimal size of 10MB, meaning all tombs have
+to be at least 10MB large. The tomb and the key can be kept on separate media, allowing
+for the tomb to be kept on your computer's hard drive and the key to be kept on a
+flash drive, for example. But, tombs are not limited to only being kept on one machine,
+they can be transported through most common means of data transfer (the internet, for
+example) and can can be kept on most common data storage formats, like a USB flash drive.
+
+ - Installation -
+To install tomb, we need to use the command line. [This part about terminal 
+emulators may not be needed if they are explained at some other time.] Open up a terminal emulator of some sort, it can usually be found by searching "Terminal" if your distribution
+has a search feature. You'll know if you've found it if you are given a window with a line of text at the top with your username and the name of your machine. [This may be good for a glossary section, but eh.]
+
+Once you've got a command line open, type in the following command: 
+[Commands and whatnot should have some formatting or style difference so the reader can easily
+interpret what is a command and what isn't. For now I'll just use curly brackets.]
+{ wget https://files.dyne.org/tomb/Tomb-2.3.tar.gz }
+This downloads the tomb program in a compressed format (similar to a zip file). If this doesn't 
+work, check your internet connection and how you typed it in, you may have made an error. 
+
+[Added checking the checksum of the file.]
+Now to make sure that the file we downloaded wasn't damaged in transit, we'll check something called
+a SHA256 checksum, which is a unique cryptographic number that cannot (for the time being) be replicated.
+First we'll download the SHA256 sum from the developer's website:
+{ wget https://files.dyne.org/tomb/Tomb-2.3.tar.gz.sha }
+Then we'll check the SHA256 hash of the Tomb tar archive:
+{ sha256sum Tomb-2.3.tar.gz && cat Tomb-2.3.tar.gz.sha }
+This should put the output of what seems to be two strings of random numbers and letters. If the hashes look
+to be the same, continue onto the next part. If not, delete the existing files, redownload them and check the
+hash again.
+
+
+Next, type the following command:
+{ tar -xvfz Tomb-2.3.tar.gz }
+This command unpacks the compressed tomb program into a directory named "Tomb-2.3". If some text 
+scrolls across your screen without anything screaming that something is wrong, don't worry, that means it's working. 
+
+Now we'll change our working directory to that one with this command:
+{ cd Tomb-2.3 }
+
+The next command requires "root" or "sudo" access. This is similar to admin access. You will be 
+prompted for your password.
+{ sudo make install }
+The command we just ran installs Tomb onto our machine. If the program says you need a few missing packages, install those packages using your distributions package manager, then run the command again. Congratulations, you've just installed Tomb!
+
+- Examples -
+Create a tomb with a size of 20MB (remember, tombs have a minimum of 10MB):
+{ sudo tomb dig -s 20 mytombname.tomb }
+
+Create a new key with a password (make sure the password is easy to remember, you won't be able to copy paste!):
+{ sudo tomb forge -k mytombname.tomb.key }
+
+Lock the tomb with a key:
+{ sudo tomb lock -k mytombname.tomb.key mytombname.tomb }
+
+Open a tomb (tombs are by default accessable at "/media/<nameofyourtombhere>"):
+{ sudo tomb open -k mytombname.tomb.key mytombname.tomb }
+
+Hide the key in a JPEG image (requires the package "steghide"):
+{ sudo tomb bury -k mytombname.tomb.key myimage.jpg }
+
+Extract a key from a JPEG image:
+{ sudo tomb exhume -k myimage.jpg }
+This may output the key onto your terminal screen (keys are defined by two lines of text; one at the top, one at the bottom. These lines say "BEGIN PGP MESSAGE" and "END PGP MESSAGE". These lines signify the start and end of the key. To make this a usable key, copy paste the key from the terminal into a empty text file using the text editor of your choice. You only need to copy the lines from the beginning to the end (including the begin and end PGP message lines). 
+
+Open a tomb using a key hidden in a JPEG image:
+{ sudo tomb open -k myimage.jpg mytombname.tomb }
+
+Make a tomb key less obvious:
+{ mv mytombname.tomb.key nobelprizepaper.doc }
+You do NOT need to have the .key extension for the key to work.
+
+Make a tomb less obvious:
+{ mv mytombname.tomb.key cat.png }
+You do NOT need to have the .tomb extension for the tomb to work.
+
+Opening a less obvious tomb:
+{ sudo tomb open -k nobelprizepaper.doc cat.png }
+
+Make the key into a QR Code (useful for paper backups, requires the package qrencode):
+{ sudo tomb engrave -k mytombname.tomb.key (OR) myimage.jpg }
+
+Close a tomb:
+{ sudo tomb close mytombname.tomb }
+
+Slam a tomb, killing all related processes (requires the package lsof):
+{ sudo tomb slam mytombname.tomb }
+You can substitute "all" for the tomb name to close or slam all open tombs.
+
+Increase the size of a tomb (easier than making a new one, requires the package resizefs):
+{ sudo tomb resize -s 50 -k mytombname.tomb.key mytombname.tomb }
+This increases my tomb by 50MB. Keep in mind that tombs can ONLY be increased, never decreased.
+
+Creating a bind hook:
+A bind hook is a file designating which files inside the tomb are to be mounted where. For instance, if 
+I wanted my thunderbird/icedove files to be kept inside my tomb, but didn't want to move them every time
+I actually wanted to use them, I could create a bind hook that would mount the directory in the tomb to
+my home folders directory when I opened my tomb.
+First step in creating a bind hook is creating the bind hook file. Run this while in the tomb directory.
+{ touch bind-hooks } 
+Next, we'll edit the file to designate which directories to mount.
+{ vim bind-hooks }
+The syntax is simple enough. Put the directory you want to mount in the tomb on one line, then make a space 
+and put the directory in your home folder where you want to mount it to.
+Example:
+{ .tombdirectory .homefolderdirectory }
+You can put multiple lines in this file to have multiple directories be mounted when you open your tomb too!
+If you do want to create a bind hook for your thunderbird/icedove files, you can simply copy the .icedove/.thunderbird
+directory recursively to your tomb (see the cp man page for more information). This requires you to delete the contents
+of the home directory's icedove/thunderbird directory though, which can be done securely with srm.
+
+ - Glossary - 
+Tomb: A command-line personal file encryption program.
+Tombs: Encrypted containers locked by a key that hold data.
+Command Line: An interface involving a terminal emulator and commands.
+CLI: An acronym for "Command Line Interface".
+Root: Administrative account on GNU/Linux and other UNIX-like systems.
+Sudo: A program allowing normal users to run root-only commands with proper authentication.
+Wget: A program to download files from the internet via the command line.
+MB: A shortening for "Megabytes", a digital file measurement unit.
+
+-----------------------------------------------
+
+Last revision 03-12-2017 [Added the change of signing algo (SHA512) and cipher (AES256).]
+
+GnuPG (GPG) - A Free Software command line PGP client
+
+1. Overview
+2. Installation
+3. Examples
+4. Glossary
+
+- Overview - 
+GnuPG (sometimes stylized as "GPG") is a command line PGP encryption client.
+PGP was a proprietary email encryption software that one could use to send encrypted
+emails from one to another with ease. With the need for transparency in encryption
+and security software, Free Software (also known as "Libre" Software) became a must-have
+for security and encryption, which led to the phasing out of the PGP client and
+the usage of Free Software alternatives. One alternative to that (and the most popular)
+is GPG. GPG uses the RSA cipher for encryption and signing, making it cryptographically
+secure. Yet, it is only as secure as your password is (given that an attacking adversary has
+your private key), meaning that choosing a strong password is important.
+
+ - Installation -
+The installation of GnuPG is nothing out of the ordinary since it is usually included
+in a distribution's repositories. Because of that, installing GPG is dependent upon 
+what distribution and package manager you are using. Refer to your distribution's
+package manager instructions to install GPG accordingly.
+
+- Examples - 
+First, before anything else, edit your conf file:
+{ vim ~/.gnupg/gpg.conf }
+And add these lines:
+{ personal-cipher-preferences AES256
+ personal-digest-preferences SHA512
+ personal-compress-preferences ZLIB BZIP2 ZIP
+ cert-digest-algo SHA512 }
+You do not need to use vim, you can use any text editor you'd like.
+
+Creating a private and public key pair:
+{ gpg --gen-key }
+You will be walked through a interactive menu to choose what type of key you want and
+how long in bits you want it to be, how long the key should be valid for and who the key
+belongs to. The suggested choices are two RSA keys, with a bit length of 4096 bits (this 
+results with a cryptographically strong and secure key-pair) and a valid period of one year
+(who the key belongs to is arbitrary).
+
+Importing a ASCII-Armored or binary public key:
+{ gpg --import friendspublickey.gpg/.asc }
+The flag "--import" tells GPG to import the following key into your key-ring to be used at
+a later time and the argument "friendspublickey.gpg/.asc" dictates what file to import the key from.
+Please note that the ".gpg/.asc" extension is to show that both binary and ASCII-Armored key-files can be imported. Use them according to the format of the key.
+
+Encrypting an message to a friend:
+{ gpg -a -e -s -r myfriend@email.com cleartextfile.txt }
+The flag "-a" makes the output base64-encoded so the message can be pasted into an email body, the
+flag "-e" tells GPG to encrypt the message, the flag "-s" tells GPG to sign the message so your
+friend can verify it was sent by you, the flag "-r" and the argument "myfriend@email.com" dictates who the recipient is (who the email is encrypted to) and the argument "cleartextfile.txt" dictates what text to encrypt. By default, the encrypted text can be found in a file of the same name but with a ".asc" extension added to the end (e.g.: email.txt.asc, secretmessage.asc, etc.). To control the output of the encryption of files, refer to the "Controlling output" section below. If you have the package xclip installed, you can copy
+the message to your clipboard easily with the following command:
+{ cat message.asc | xclip -selection clipboard }
+If you want to make a binary file to be attached as an attachment in a email, you can simply drop the 
+"-a" flag, which also gives the file a ".gpg" extension by default instead. This command can also be used to encrypt
+a message to yourself, which you can do by replacing the recipient email with your own.
+
+Encrypting a file to a friend:
+{ gpg -e -s -r myfriend@email.com myfile }
+Files (that are not only cleartext) CAN NOT be ASCII-Armored! This command can also be used to encrypt a file
+to yourself, which you can do by replacing the recipient email with your own. By default, the encrypted file can
+be found with the file's original name with the ".gpg" extension attached.
+
+Verifying a detached signature (commonly used with security and encryption programs to verify the authenticity):
+{ gpg --verify detached_signature.gpg/.asc }
+Note that detached signatures can be in both binary and ASCII-Armored formats, and that the verification of signatures
+requires the public key associated with the signature.
+
+Decrypting a message or file:
+{ gpg -d file.gpg/.asc }
+When decrypting a file or message, if the file or message is signed, GPG will try to verify the signature against
+the associated public key. By default, GPG will display the output to STDOUT (which is displayed by your terminal, which results in a bunch of unreadable data being put out to your terminal if the decrypted object is a file). To control the output of the decryption of files, refer to the "Controlling output" section below.
+
+Controlling output:
+{ gpg --output decryptedfile -d file.gpg/.asc }
+The flag "--output" makes the output go somewhere other than STOUT and the argument "decryptedfile" dictates where the output should be sent to. This is important when decrypting files such as tar archives since the binary output of the tar archive is not
+helpful when trying to make a usable file.
+
+Using a specific key for signing:
+{ gpg --default-key 38424F4 -a -e -s -r myfriend@email.com cleartextfile.txt }
+The flag "--default-key" tells GPG to use the following key dictated in the next argument for signing, instead of the default one 
+dictated in ~/.gnupg/gpg.conf. This is useful if you want to use a less-used key for signing instead of your primary one.
+
+Exporting your public key in ASCII-Armored format:
+{ gpg --output myemail@email.com.pub.asc -a --export myemail@email.com } 
+This is useful for having a easily-sharable format for your public key. Most key-servers require keys to be submitted in ASCII-Armored
+format. This is also useful to backup/migration purposes.
+
+Exporting your private key in ASCII-Armored format:
+{ gpg --output myemail@email.com.priv.asc -a --export-secret-keys myemail@email.com }
+This is useful for backup/migration purposes. Handle with care.
+
+Exporting your ownertrust for your private key:
+{ gpg --output myemail@email.com.ownertrust.asc --export-ownertrust }
+This is useful for backup/migration purposes since without backing up your ownertrust you will receive errors from GPG about trusting your key. If you forget to do this, you can manually set the trust of a key with:
+{ gpg --edit-key myemail@email.com }
+You will be given an interactive prompt, which to edit trust for this key you need to enter "trust" and make a selection of "5" if this key is your own.
+
+Importing your private key:
+{ gpg --import myemail@email.com.priv.asc }
+This is useful for backup/migration purposes.
+
+Backing up all of your public keys, private keys and your trustdb in one go:
+{ cp ~/.gnupg/pubring.gpg /path/to/backups/
+  cp ~/.gnupg/secring.gpg /path/to/backups/
+  cp ~/.gnupg/trustdb.gpg /path/to/backups/ }
+Note that the path to backups needs to be the same as the original (~/.gnupg) on the separate machine for this to work correctly.
+
+-----------------------------------------------
+Last revised 2017-03-12 [Lengthed do's and don'ts]
+
+Encryption - The do's and don'ts of encryption
+
+1. Overview
+2. Symettric v Asymettric and Public/Private keys
+2. Do's and Don'ts
+3. Glossary
+
+ - Overview -
+
+Encryption in cryptography is the act or process of encoding data for only an
+intended recipient or parties to access it. In short, it makes it so only the
+people that are supposed to see the data can. This section will not go over how
+encryption and cryptography works, but instead talk about the do's and don'ts of
+encryption. For information about encryption itself and cryptography, refer to
+the cryptography section.
+
+ - Symmetric v Asymettric and Public/Private keys -
+
+Symettric encryption algorithms (also known as symmettric-key algorithms) are
+encryption algorithms that use the same cryptographic keys for both encryption
+and decryption of ciphertext. Popular symettric encryption algorithms include
+AES, Twofish and Serpent. A drawback to symettric encryption is that both parties
+need to have the secret key to decrypt the encrypted data, as opposed to public/
+private key encryption. Because of this, symettric encryption algorithms, in
+particular AES, are used in situations where data does not need to be passed between
+two parties, and instead needs to be kept relatively static. An example of everyday
+use of symettric encryption algorithms is full disk encryption.
+
+Asymettric encryption (also known as public key cryptography or asymettric cryptography)
+are encryption algorithms where the encryption and decryption keys are different (hence
+the term asymettric). Popular asymettric encryption algorithms include RSA, DSA and ElGamal.
+A useful feature of asymettric encryption includes the ability to distribute an encryption key
+over the internet safely, without the risks invloved of sending a symettric encryption key.
+An example of everyday use of asymettric encryption algorithms is GPG.
+
+Public keys and private keys are encryption and decryption keys for asymettric encryption
+algorithms. Public keys, as the name implies, are made public for anyone to find. Public keys
+facilitate the need for encryption keys being able to easily distributed with no risk to the
+decryption of the data (see symettric encryption). Anyone can encrypt something with the public
+key, but only the person with the private key (also known as secret keys) can decrypt the data.
+Because of this, you're supposed to keep your private key private so your data can be kept safe
+from adverseries. 
+
+ - Do's and Don'ts -
+Public keys:
+
+DO put your ascii armored key on keyservers for people to find it.
+ # Some popular PGP keyservers are; keys.gnupg.net, pgp.mit.edu, zimmermann.mayfirst.org/qdigse2yzvuglcix.onion
+DO sign other people's keys if you know who the key belongs to.
+ # To sign someones public key, look at the GnuPG section. To put your newly signed public key on a keyserver,
+simply upload the signed key to the server, which will overwrite the old one.
+DO sign messages including the transfership of your public key so any tampering will be found.
+ # A cleartext signature will do.
+DO put your key in ascii armored format.
+ # This allows you to easily transfer your public key.
+
+Private keys:
+
+DO put a password on your private key to increase security.
+ # This makes it so if someone gets ahold of your private key, they will have to get the password first to use it.
+DO encrypt the key with a symettric algorithm when transferring between systems.
+ # For instance, encrypting the key will a password using GPG. Be sure to remember the password, and to not use the
+same password as the key does.
+DO try to transfer your private key with formats that are secure (USB harddrives, SFTP, SSL, etc.)
+ # Using secure formats to transfer your private key with reduce the risk of someone intercepting it.
+DO NOT put your secret key on unencrypted USB flash drives!
+ # Flash memory is impossible to erase securely.
+DO NOT put your private key on keyservers!
+ # This one doesn't need an explanation.
+DO NOT encrypt your private key with your public key without a backup!
+ # You can't decrypt your encrypted data without your private key.
+DO NOT not use a password for your private key!
+ # If you don't use a password, once someone gets your private key, you're hopeless.
+DO NOT share your private key!
+
+-----------------------------------------------
+
+Last Revision 04.March
+
+Mobile Security and Privacy
+
+1. Intro
+2. Anonymous Phones
+3. Creating a Burner Android
+4. Useful apps
+5. Sources
+
+- Intro -
+
+    Mobile phones dominate the internet, with a global average of 50% of internet usage coming from mobile phones. In Africa and Asia the rates are even higher. With a userbase that is greatly uninformed or concerned about the risks associated with carrying a phone, malware authors and law enforcement have taken a huge interest in these devices. Though, to many, the news of large-scale mobile data collection is no surprise. Lesser known though is the targeted use of devices known as Stingrays[1][2]. Simply these devices can intercept your texts and phone calls as well as track your location by acting as a fake cell phone tower. We will learn how to stay safe from this kind of interception by removing our fingerprints from the gathered data.
+
+- Anonymous Phones -
+
+    The idea of a anonymous phone is a bit strange. How can these always-on tracking beacons be private in any way? Well, an anonymous phone is not going to come out of a box covered in corporate propaganda, it is going to require a bit of tinkering. From the perspective of security, Apple devices are more favourable than Android. Apple has a very large team of security researchers always ready to patch dangerous bugs. The downside to their devices however, is that they are very difficult to use without the device phoning home to Apple. A jailbroken device can provide a bit more freedom but it is still difficult to de-icloud[3]. Android phones are no better out of the box, and rely on invasive services from Google. But, unlike Apple, Google does not have as tight of a stranglehold on their devices, allowing many groups to take initiative and build Google-free or minimal operating systems, called ROMs. ROMs along with rooting your phone can allow you to take an important step towards anonymity and security.
+
+- Creating a Burner Android -
+
+These steps only serve as a guideline with recommended software and setup techniques. It is important to remember there is no such thing as guaranteed anonymity, only presumed. This tutorial uses services that are not private, so we recommend researching compartmentalization. Extra resources and reading material will be included at the end of this section.
+        
+Necessary equipment:
+        
+- A phone that has no tie to your identity, these are easily available at many department stores and can be paid for using cash. (We highly recommend installing a custom open source ROM. Research Replicant or Cyanogenmod and take into consideration your device model while doing so.) 
+-(Optional) A small-medium sized micro-SD card
+
+
+1. Find an open Wifi network fairly far from your home. Avoid chain restaurants as they have plenty of security cameras and harvest userdata. (Suggested; Libraries, small coffee shops)
+
+2. Factory reset your phone, if you have a custom recovery installed then use the factory reset through that.
+
+3. On startup create a gmail address, be creative with your username, but keep it separate from your usual online aliases. If you want to take the extra step, you can register your Gmail account through Tor or a VPN service, as it will mask the IP your registering from.
+
+4. Open settings and under developer settings allow unknown sources. This will allow you the option to download apps and software for your phone that aren't strictly through the Google Play Store.
+
+5. Open Google Play Store and download the Talkatone app (many other free VoiP services can also be used).
+
+6. Set up a Talkatone account normally, don't use your real name but do use the email you set-up
+
+7. Go to your browser and navigate to https://f-droid.org/. F-Droid acts as a free and open source alternative to the Google Play Store.
+
+8. We strongly recommend downloading Orbot and Orfox as well. Both of these apps are free and can be downloaded on the F-Droid app, allowing you to access Tor Browser services on a mobile device.
+
+At this point your burner phone is complete, maintaining your anonymity is the most important part. It is crucial to keep Wifi turned off while not using it, not doing so will risk your anonymity[4]. 
+
+
+- Useful Apps -
+
+Orbot & Orfox: These are Tor forks and have been shown to be private enough.
+
+ObscuraCam: A camera app that does identity removal for photos and video.
+
+OpenKeychain: PGP for android! Use PGP!
+
+Signal: An encrypted messaging service. You can use your talkatone account to set this up.
+
+K-9Mail: A good email client!
+
+For iOS: I recommend Onion browser for accesing the Tor network however it's still quite early in development. And Cydia, fuck propriatary software
+
+- Sources -
+[1]http://www.cbc.ca/news/technology/rcmp-blackberry-hack-montreal-mob-murder-pub-ban-lifted-1.3629222
+[2]https://www.youtube.com/watch?v=rzBWoVh4qhk
+[3]https://www.youtube.com/watch?v=Nx8k4luSE4E
+[4]https://www.theregister.co.uk/2016/11/17/tfl_to_track_tube_users_by_wifi_device_mac_address/
+
+-----------------------------------------------------------------------
+
+Last Revised 2017-03-13 
+
+Introduction to the Free Software Movement
+        
+        Throughout this zine we will refer to the software that we recommend as “Free software”. We use the term “free”, as in freedom. Free software is focused on the freedom and liberty of its user, and has nothing to do with a monetary price. Often times we will see the term “Libre” used, shown in software like LibreOffice. This derives from the French word libre which means “free” as in freedom. While plenty of the free software we use and recommend may cost nothing, it is important that these concepts are not mixed up.
+        The Free Software Movement is a movement spearheaded by Richard Stallman, founder of the GNU/Linux Foundation. It is a movement that demands a users freedom to control the program and make any changes as they please. There are four essential freedoms to the free software movement, and software is only free if they meet all of these prerequisites. If they fail to meet these prerequisites, they are deemed unethical, non-free, and proprietary. 
+
+THE FOUR FREEDOMS OF FREE SOFTWARE
+
+	* The freedom to run the program as you wish, for any purpose – fREEDOM 0
+	* The freedom to study how the program works through its source code, and change        it freely, so it does your computing as you wish – fREEDOM 1
+	* The freedom to redistribute copies so you can help your community – fREEDOM 2
+	* The freedom to distribute copies of your own modified versions to others – fREEDOM 3
+
+        When software is being programmed and developed, the code that it is being built upon is referred to as the source code. One of the most important parts of free software is that the source code must be readily available for audit, modification, and viewing. When the source code is accessible for a user, it provides absolute control of the program. Not only does it allow for users to find errors and help develop the program further, but it allows for the examination and auditing for potential malicious or harmful code.
+        In the past several years, we have seen government backdoors and malware inserted into Windows, MacOS, Android, iOS, and many other platforms. Malware is an abbreviated term meaning “malicious software.” Malware is software that is designed to mistreat or harm users when it is run. This doesn’t mean that all non-free software is malware, but the dangers are to be assumed, as the only thing we have to base our trust off of is blind trust in the developer, corporation, or government agency. Malware allows for these entities to access your device remotely, giving them free reign on your data and personal information. Proprietary software has proven itself to be an enemy of the free software movement, as it acts as malware, giving developers and “Big Brother” the ability to enact malicious functionalities on a users device.
+         While there are minor inconveniences that come at the expense of fighting for our freedoms, we must remain focused on the goal of obtaining these freedoms for all users. There are ethical and free software alternatives to the proprietary software that is commonly used to communicate with our friends, check our emails, and produce media and content. Offered below is a compiled list of free alternatives to the most common proprietary software being used today. Using these alternatives is only the first step in the liberation of cyberspace, but it is a mandatory one.
+
+RECOMMENDEDFREE ALTERNATIVES TO THE COMPUTER SOFTWARE YOU LIKELY USE
+
+Operating Systems (Alternatives to Microsoft Windows & OSX) – Debian, Fedora, Arch Linux, Linux Mint DEBIAN, FreeBSD, Gentoo, and more. 
+Web Browsers (Alternatives to Google Chrome, Internet Explorer, Safari) – Mozilla Firefox, Tor Browser
+Search Engines (Alternatives to Bing, Yahoo, Google) – DuckDuckGo, Startpage, Searx.me
+Email Services (Alternatives to GMail, Hotmail, Yahoo, etc.) –Protonmail, Riseup, Autistici, Kolab, bitmessage.ch
+Instant Messaging (Alternatives to FB Messenger, AOL, Skype, Google Hangout) –BitlBee, Tox,  Ricochet, Autistici, or any FOSS IRC client with SSL/Encryption enabled
+Office Suites (Alternatives to Microsoft Office, Google Docs) – LibreOffice, Open Office
+Password Managers (Personal password storage database, Generate safe passwords) – KeePassX
+Email Encryption (Ways of securing the information in your emails) – PGP, Enigmail, TORBirdy
+File Storage & Cloud Sync (Alternatives to Dropbox, Google Drive, iCloud) –Kolab Now, Hubzilla, ownCloud, MEGA
+Financial Services (Alternatives to PayPal, Venmo, Amazon) – Bitcoin, Litecoin, Monero, CASH!
+Productivity (Alternatives to Evernote, iWork, Google Docs) – Cryptpad, Etherpad, Up1, Hubzilla
+Social Networks (Alternatives to Facebook, Google+, Twitter) – diaspora*, GNUSocial, Hubzilla
+Video & Voice (Alternatives to Facebook, Google+, FaceTime, Skype) – Mumble, Riot, Jitsi, Tox
+
+
+Password Generation and Management
+==================================
+
+Last revision: 15-Mar-2017
+
+
+Overview
+--------
+
+Passwords and passphrases have been the standard for authenticating users for a very, very long time. Although replacements like PKI and password-strengthening methods like multi-factor authentication are slowly becoming a standard, passwords remain the primary method for authenticating users for everything from online banking to social media. Despite users steadily adding new services to their roster of "logins to remember", most people continue to use one or a few passwords, or minor variations of the same password across different services. This, as you can imagine, has a laundry list of security weaknesses, including: 
+
+ * humans are bad at thinking of random passwords => it's relatively easy to guess a user's password (particularly with a dictionary attack)
+ * humans are bad at remembering long passwords => passwords are susceptible to brute-force attacks 
+ * humans are bad at using varying passwords => if one login is compromised, the attacker can traverse to other sites using the same login
+
+All three of these problems can be mitigated by using a password manager. 
+
+
+Password Manager Basics
+----------------------
+
+A password manager is a database application that generates and stores a user's passwords. Password managers are typically either online or offline: An online password manager is a hosted service which handles the user's passwords, and is typically accessed via a web browser extension, while an offline manager is an application that runs on the user's computer or smartphone. Offline managers are recommended because online password managers are tempting target for attackers (see the Lastpass data breach, 2015), and it requires the user to trust the service provider (although providers can make all sorts of promises about the extent of their encryption and whatnot, it's impossible to prove what code they're running on their servers). Hybrid setups are also possible (where a local database is used, which is then synchronized across devices).
+
+Password managers can store either user-provided or randomly-generated passwords. Random password generation is preferred, as this mitigates problem 1 above ("humans are bad at thinking of random passwords"). A properly generated random password is impossible to guess by the attacker and not vulnerable to dictionary attacks. Combined with a long password length, the passwords are effectively unbreakable. 
+
+Regarding random password generation, a password manager will typically allow a user to select the character space used in the password (for instance, a user may select multiple of uppercase, lowercase, numbers, symbols). A long password with a large character space is also extremely resistant to brute-force attacks, forcing the attacker to turn to other vectors when attempting to compromise the user's account. Further, most password managers will allow the user to select a length and character space for every password generated -- so the user can use less complex passwords for sites with limited password restrictions, while using long, complex passwords for sites that allow them.
+
+Password managers will typically encrypt their database with a single password: a "master password". This main password should be long and complex, as it's the key to all of the user's other passwords. In some cases, multi-factor authentication is required to decrypt the database, such as a 2FA token or a keyfile. 
+ 
+It's imperative that the user keeps a backup, or multiple backups, of their password database. Without backups, the user will have a Bad Time if their primary database is lost, corrupted, or otherwise inaccessible. 
+
+
+Convenience Problems
+--------------------
+
+Typically, users will be resistant to implementing a password manager due to convenience: Using a password manager requires an extra step in authentication to everywhere the user wants to login. Thankfully, there are a number of features available in password managers which help with ease-of-use. 
+
+Most password managers will allow some form of auto-login/autofill: The login fields may be automatically filled in (if the manager is able to detect the site being accessed, such as browser extension-based) or allow a "dump" of the username and password (in case of application-based password mangers -- this effectively enters [$username <tab> $password <enter>] as if it were typed into the keyboard). In most cases, password managers can be incorporated into a user's workflow with minimal extra delay.
+
+Another common frustration is that users may require their logins on more than one device: for instance, a user may have a desktop, laptop, and smartphone, and needs to log in to certain sites on all three. Attempting to keep three separate password managers synchronized manually is, understandably, very difficult. It's fairly straightforward to have a "hybrid" password manager, where an offline password manager is used, but the (encrypted) database file itself is synchronized over the web. This allows the user to read and save new passwords, and have them available across all devices immediately. See the _A Sample Implementation_ section. 
+
+
+Key Points
+----------
+
+Password managers allow users to: 
+ * use a different password for every individual login, mitigating attacker traversals
+ * use a long, random password for every login, mitigating dictionary and brute force attacks
+ * use a single master passphrase, eliminating the "too many passwords to remember" problem
+
+Recommendations: 
+ * use a strong master password: your entire system depends on this
+ * use a unique, randomly-generated password for every login
+ * use as long and complex of a password as every login allows
+ * keep backups of your password database
+
+
+Recommended Software
+--------------------
+
+KeyPassX is a lightweight, cross-platform, offline password manager. It supports a number of different fields (the most common being "username, password, URL, comment"), fast search functionality, grouping, database encryption, and secure password generation. KeePassX, and it's databases, are cross-platform. KeePassX is free (GPL) software. 
+
+Keepass2Android is an Android application which allows for read/write access to KeePass databases via a variety of web synchronization methods, including OwnCloud, Dropbox, and Google Drive. It is free (GPL) software. 
+
+
+A Sample Implementation
+-------------------------
+
+This article will not take you through step-by-step instructions for installing this software; rather, it will provide a rough list of steps needed for a good, hybrid setup. It is assumed the reader has enough technical expertise to install a few packages and configure a synchronization method. The sample implementation steps are as follows: 
+
+ * install KeePassX appropriate for your primary platform
+ * create a new database, using a strong master password (and optionally a keyfile)
+ * for every site to protect: create a new entry and generate a password, keeping complexity high, then change your password on the site itself (probably best to do this for a few test sites to start)
+ * decide on a synchronization method (OwnCloud is recommended)
+ * create a cron job to synchronize your local database file to your online storage (hints: compare the modified times on both files, then have the newer one replace the older one)
+ * install Keepass2Android and link with your online storage (K2A will automatically update your remote file when you make changes and handle all the synchronization for you)
+ * set up a backup method, in case of an accidental deletion, synchronization snafu, or other disaster
+
+------------------------
+
+Last Revised 19-March-2017
+
+Introduction: Threat Modeling & Doing It Your Way
+
+    There are many reasons why someone would search for ways to create a more secure and private experience while using technology. It is important to recognize what you’re looking for, the tools you need, and how to use them properly. We hope that you consider this zine a toolbox of sorts, with the information being provided, guiding you along a path of securing your digital life. While you may not be interested in using all of the tools and information provided, you should remember that for each step being taken, you are creating another layer between you and your adversary. The challenge of determining who your adversary is often one of the most difficult parts of security culture. 
+    The first step to take in determining your adversary is figuring out what you are wanting to do with your connectivity and use of technology. While connected to the internet or using technology, there will always be a force working against you. Even the average user who browses social media is a target for advertising, data-mining, identity theft, and the spreading of viruses, malware, and more. All of this boils down to answering the question of, what do YOU want to do?  Do you wish to participate in the fight against hierarchical structures through methods of hacktivism? Do you want to take the steps to make sure that corporations aren’t profiting off of the data you are providing when purchasing an item or using a service? Or maybe, you just want a computing experience that can be molded around your own experience and provide security measures that you deem fit. All of us who connect to The Wired have the ability to control how much data about ourselves is left behind, and this is a responsibility that is not to be taken lightly.
+    If you’re an average user wanting to take extra steps to create a more secure browsing experience on the internet, there is a chance that you won’t feel the need to sacrifice many of the services or platforms you currently use, just for the sake of freedom. For many users, taking the small steps of using more secure email services, ad-blocking tools, and strong passwords will seem sufficient enough for their experience. But it is important to remember that for many of us, just taking a few small steps isn’t enough. For those taking part in an act of underground resistance, and those who wish to not have to give up personal data for corporate profit, or those who have to secure their connectivity in order to protect themselves from a tyrannical government, each step to secure our digital lives is a matter of survival. For many, securing connections and keeping a clean digital footprint is a matter of life, death, or imprisonment. This may seem extreme for the average user, but it’s crucial to remember that we are all only one poor decision, or one small failure in security, from receiving a knock at our door. 
+    Last but not least, please remember that all of this information is only being provided as tools to further your own security. As stated, the most important thing you can do is figure out your adversary, and protect yourself from them. It is your decision to make the time you spend on The Wired the experience that you wish to have. Use the information provided to secure your own life and take control of your computing experience, as an act of rebellion and liberation. Stay informed, torrent everything, spread information, cause chaos, and bring beauty to this ugly world. 
+
+- clippng
+
+---------------------------------------------
+Last Edited March 24
+
+Introduction to the Command Line: CLI-101
+What is it, what is it for, why use it, and what do all these weird commands mean?
+
+This only applies to MacOS or Linux. (is this line necessary?) (First, I'm not the author. Second, probably more clear to say that this only applies to bash, since it seems like that's the only shell you're using.)
+
+
+Basically, the commanline is what shows up when you open your "Terminal" program. It should show a mostly blank window with one line starting with something like "user@computer:~$ " and a cursor at the end of that line. Commands are appended to the end of the line and are evaluated after you press return. That means you can type anything, edit it as much as you need, and nothing will happen until you press enter.
+
+Go ahead and type "ls" without the quotes and hit return. You should then see something like this:
+
+user@computer:~$ ls
+Desktop  Documents  Downloads  Pictures  Music  Public  Templates  Videos
+user@computer:~$ 
+
+What we see is a list of directories, commonly known as "folders", and another line with "user@computer:~$ ". This line is known as the prompt and is prepended before every command to let us know the last command is done and is ready for another.
+
+As you may have guessed, ls means "list". Many commands are contractions of familiar words that make it easy to memorize what they mean and how to use them. If we want to learn more about a particular command, we have two options. We will go through them both. 
+
+The first is to use another command "man" which is short for "manual" followed by the command we wish to know about. Go ahead and type "man ls" at your prompt and hit return. You should see that your window has changed to something like this:
+
+
+LS(1)                            User Commands                           LS(1)
+
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information  about  the FILEs (the current directory by default).
+       Sort entries alphabetically if none of -cftuvSUX nor --sort  is  speci
+       fied.
+
+Manual page ls(1) line 1 (press h for help or q to quit)
+
+
+What we see is a the manual for the command we requested, including the name, brief overview, and a longer description. To see more of the manual, use the arrow keys to scroll. As you scroll, there should be many lines like this:
+
+
+       -a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+              do not list implied . and ..
+
+       --author
+              with -l, print the author of each file
+
+       -b, --escape
+              print C-style escapes for nongraphic characters
+
+These dashes followed by a letter, word, or number, are known as options or flags. They are ways to augment the original command to change what kind of information we get such as listing all files with their size, or author, or the last date they were modified, or to include hidden files. It is safe to ignore most options for now until you understand what the descriptions mean.
+
+Now press "q" to exit the manual and you should be returned to your prompt.
+
+Let's now experiment with some of the options available for ls. Type "ls --reverse" to list the directories in reverse. Many flags can be shortened as well, try using "ls -r" and see that the output is the same as before, each directory is listed in reverse alphabetical order.
+
+Now we come to our second way of learning what a command means, with the "--help" option.
+Type "ls --help". If there is too much output on the screen, you can scroll back up with a scroll wheel or the scrollbar. The --help flag gives us a briefer description of a command than what we see when looking at the manual.
+
+
+Any command that you come across you can read about using these two techniques. In general, it is not recommended to run any command that you do not understand as it may be difficult (but rarely impossible) to fix it.
+
+
+Now lets cover a few more basic commands.
+Type "cd Desktop" to "change directory" to the Desktop folder. You may now type ls here to see what is on your desktop. If you ever got lost in different folders, you may type "pwd" to "print the working directory" or type "cd" with no arguments to return to your home, the directory you always start in when you open a new Terminal window.
+
+In the Desktop directory, type "nano cli101.txt". Nano is a simple text editor for the terminal. Use the arrow keys to move the cursor around, type whatever you want, "I'm learning the commmand line!", and hit Control-x, then "y", to save the file. There should now be a new file on your desktop titled cli101.txt. You can also type "ls" to see it too.
+
+Now use the "rm" command to delete the text file by supplying the file name as the argument, "rm cli101.txt". Now the file is gone. Unlike moving stuff into the trash/recycling bin, rm removes files completely with no easy way to recover them so be careful.
+
+There are many other editors available like vi, vim, emacs, or ed but nano is the most straight forward.
+
+Now that we have covered basic commands, how to use them, and how to learn more about them, we are going to cover redirects and pipes. These are crucial techniques that make the command line much more powerful than using a Graphical User Interface or GUI for short.
+
+A redirect is when we take the output of a command and write it to a file. Say we want a file with the list of directories in our home. If we type "cd" we now return to the home directory. Typing "ls" reveals the same output as before. Now type "ls > Desktop/list.txt" The right carrot or arrow, means to take the output from ls, the list of directories, and write them to a new file called list.txt in our Desktop folder.
+
+Say we want to append a note that list file, instead of opening an editor we can use the "echo" command and a redirect to append output to the file. Type "echo This is a list of directories >> Desktop/list.txt". The two right carrots mean to append to the file if it exists or write to a new file if it does not. If we had used a single carrot then the output would have rewritten whatever was in the file before.
+
+Now to look at the file we can use the "cat" command. "cat" is short for concatenate and it is for adding text files together. If we type "cat Desktop/list.txt" the text in the list.txt file is added to our terminal output. Similarly we can use "cat Desktop/list.txt > Desktop/list2.txt" to make a copy of the file and "cat Desktop/list.txt Desktop/list2.txt" to add the output of both files to the terminal. 
+
+
+The next tool to cover is the pipe which is shown as "|". This takes the output from one command and uses it as input for the next command, allowing us to chain many tools together. This can be used in any command that gives text as its output and the next command accepts text as its input.
+
+Here is a simple example. Run "cat Desktop/list.txt Desktop/list2.txt | sort" you should see an alphabetically sorted list of the lines in each file. Now run "cat Desktop/list.txt Desktop/list2.txt | sort | uniq" to make each line sorted and unique.
+
+
+Fundamentally the command-line interface, or CLI is just another way of interacting with the computer and with practice, allows one to do remarkably complex taskes simply and easily that would have been very difficult if not impossible to do with a GUI.
+
+--- [REDACTED]
